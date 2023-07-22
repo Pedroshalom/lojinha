@@ -31,7 +31,7 @@ const products = [
   {
     id: 15,
     name: "Mini bag Maria(Yellow)",
-    price: 59.9,
+    price: 59.90,
     quant: 1,
     size: ["Único"],
     categories: ["infantil"],
@@ -43,7 +43,7 @@ const products = [
   {
     id: 27,
     name: "Mini bag Maria(Pink)",
-    price: 59.9,
+    price: 59.90,
     quant: 1,
     size: ["Único"],
     categories: ["infantil"],
@@ -55,7 +55,7 @@ const products = [
   {
     id: 22,
     name: "Mini cactos ",
-    price: 16.0,
+    price: 16.00,
     quant: 1,
     size: ["Único"],
     categories: ["lembrancinhas"],
@@ -65,7 +65,7 @@ const products = [
   {
     id: 13,
     name: "Bolsa Isabel",
-    price: 79.9,
+    price: 79.90,
     quant: 0,
     size: ["Único"],
     categories: ["calcaSaia", "queridinhos"],
@@ -76,7 +76,7 @@ const products = [
   {
     id: 1,
     name: "Bolsa infantil redonda",
-    price: 39.9,
+    price: 120.00,
     quant: 1,
     size: ["Único"],
     categories: ["infantil"],
@@ -87,7 +87,7 @@ const products = [
   {
     id: 5,
     name: "Bolsa Vitória",
-    price: 22.9,
+    price: 149.90,
     quant: 1,
     size: ["Único"],
     categories: ["bodyCropped"],
@@ -98,7 +98,7 @@ const products = [
   {
     id: 8,
     name: "Bolsa Vitória",
-    price: 43.9,
+    price: 149.90,
     quant: 2,
     size: ["Único"],
     categories: ["bodyCropped"],
@@ -109,7 +109,7 @@ const products = [
   {
     id: 9,
     name: "Bolsa Lívia",
-    price: 43.9,
+    price: 180.00,
     quant: 1,
     size: ["Único"],
     categories: ["bodyCropped"],
@@ -120,7 +120,7 @@ const products = [
   {
     id: 10,
     name: "Bolsa Aurora Black 🖤",
-    price: 39.9,
+    price: 160.00,
     quant: 2,
     size: ["Único"],
     categories: ["bodyCropped"],
@@ -130,7 +130,7 @@ const products = [
   {
     id: 11,
     name: "Chaveiro coração verde",
-    price: 79.9,
+    price: " A partir de 50uni R$5.9",
     quant: 1,
     size: ["Único"],
     categories: ["lembrancinhas"],
@@ -141,7 +141,7 @@ const products = [
   {
     id: 18,
     name: "Bolsa Sharon azul",
-    price: 59.9,
+    price: 119.90,
     quant: 0,
     size: ["Único"],
     categories: ["bodyCropped", "novidades"],
@@ -151,7 +151,7 @@ const products = [
   {
     id: 23,
     name: "Bolsa Vitória Black",
-    price: 59.9,
+    price: 149.90,
     quant: 0,
     size: ["Único"],
     categories: ["bodyCropped", "novidades"],
@@ -159,9 +159,19 @@ const products = [
     description: "👜 Bolsa vitória, toda cheia de charme para todas as ocasiões! na versão Black",
   },
   {
+    id: 31,
+    name: "Bolsa Pérola Negra",
+    price: 220.00,
+    quant: 0,
+    size: ["Único"],
+    categories: ["bodyCropped", "novidades"],
+    image: ["media/produtos/6.png"],
+    description: "👜 Maravilhosa bolsa bag em crochê fio de malha, cor preta com detalhes em dourado.",
+  },
+  {
     id: 20,
     name: "Cestinhos de crochê",
-    price: 59.9,
+    price: "kit com 4 - R$99.90",
     quant: 0,
     size: ["Único"],
     categories: ["bodyCropped", "novidades"],
@@ -173,7 +183,7 @@ const products = [
   {
     id: 16,
     name: "Mini Bag Ana",
-    price: 119.9,
+    price: 89.90,
     quant: 0,
     size: ["Único"],
     categories: ["vestido", "novidades"],
@@ -185,7 +195,7 @@ const products = [
   {
     id: 21,
     name: "Chaveiro coração vermelho",
-    price: 79.9,
+    price: 79.90,
     quant: 1,
     size: ["Único"],
     categories: ["lembrancinhas"],
@@ -196,18 +206,18 @@ const products = [
   {
     id: 2,
     name: "Bolsa Cecília",
-    price: 39.9,
+    price: 130.00,
     quant: 0,
     size: ["Único"],
     categories: ["bodyCropped", "queridinhos"],
-    image: ["media/produtos/bolsaredonda.jpeg"],
+    image: ["media/produtos/cecilia.jpg"],
     description:
       "👜 Bolsa Cecíla, super charmosa, feita com fio de malha Premium na cor azul.",
   },
   {
     id: 3,
     name: "Bolsa de mão",
-    price: 39.9,
+    price: 149.90,
     quant: 0,
     size: ["Único"],
     categories: ["bodyCropped", "queridinhos"],
@@ -218,7 +228,7 @@ const products = [
   {
     id: 4,
     name: "Bolsa tranversal Rosa",
-    price: 39.9,
+    price: 120.00,
     quant: 0,
     size: ["Único"],
     categories: ["bodyCropped", "queridinhos"],
@@ -229,7 +239,7 @@ const products = [
   {
     id: 6,
     name: "Bolsa Paz",
-    price: 22.9,
+    price: 120.00,
     quant: 0,
     size: ["Único"],
     categories: ["bodyCropped"],
@@ -240,7 +250,7 @@ const products = [
   {
     id: 7,
     name: "Bolsa Isadora",
-    price: 26.9,
+    price: 179.90,
     quant: 0,
     size: ["Único"],
     categories: ["bodyCropped", "queridinhos"],
@@ -248,9 +258,19 @@ const products = [
     description: "👜 Bolsa Isadora, toda cheia de charme, feita com fio de malha premium 100% artesanal, nas cores azul e rosa, fechamento em zíper.",
   },
   {
+    id: 29,
+    name: "Bolsa Isadora com necessaire",
+    price: 199.00,
+    quant: 0,
+    size: ["Único"],
+    categories: ["bodyCropped", "queridinhos"],
+    image: ["media/produtos/bag.jpg"],
+    description: "👜 Bolsa Isadora com necessaire, toda cheia de charme, feita com fio de malha premium 100% artesanal, nas cores azul e rosa, fechamento em zíper.",
+  },
+  {
     id: 12,
     name: "Bolsa Anitta",
-    price: 49.9,
+    price: 120.00,
     quant: 0,
     size: ["Único"],
     categories: ["vestido"],
@@ -261,7 +281,7 @@ const products = [
   {
     id: 13,
     name: " Bag Aurora",
-    price: 79.9,
+    price: 160.00,
     quant: 0,
     size: ["Único"],
     categories: ["calcaSaia", "queridinhos"],
@@ -272,7 +292,7 @@ const products = [
   {
     id: 14,
     name: "Bag Lívia",
-    price: 46.9,
+    price: 160.00,
     quant: 0,
     size: ["Único"],
     categories: ["calcaSaia"],
@@ -284,7 +304,7 @@ const products = [
   {
     id: 24,
     name: "Lembrancinha chá bêbê",
-    price: 74.9,
+    price: "A partir de 50uni R$12.90",
     quant: 1,
     size: ["Único"],
     categories: ["lembrancinhas"],
