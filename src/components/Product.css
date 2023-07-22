@@ -41,7 +41,7 @@
 
 .infos {
   display: flex;
-  color: red;
+  color: green;
   align-items: center;
   justify-content: center;
 }
