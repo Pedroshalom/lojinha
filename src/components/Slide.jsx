@@ -90,8 +90,6 @@ const Slide = () => {
       </section>
       <h1 className="t" >𝐒𝐞𝐣𝐚𝐦 𝐛𝐞𝐦 𝐯𝐢𝐧𝐝𝐨𝐬 !</h1>
       <p className="t" >𝐄𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐬𝐭𝐚 𝐞𝐦 𝐛𝐨𝐥𝐬𝐚𝐬,</p>
-      <p className="t" >𝐥𝐞𝐦𝐛𝐫𝐚𝐧𝐜𝐢𝐧𝐡𝐚𝐬 𝐞 𝐤𝐢𝐭 𝐡𝐢𝐠𝐢𝐞𝐧𝐞.</p>
-      {/* <p className="p" >𝐄𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐬𝐭𝐚 𝐞𝐦 𝐛𝐨𝐥𝐬𝐚𝐬,</p> */}
     </div>
   );
 };
