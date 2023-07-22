@@ -84,7 +84,7 @@
 
 .addCart:hover {
   filter: saturate(1.3);
-  background: none;
+  background: #fff;
   color: #fc0fc0;
   border: 2px solid #ff99c8;
 }
