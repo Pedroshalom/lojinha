@@ -195,7 +195,7 @@ const products = [
   {
     id: 21,
     name: "Chaveiro coração vermelho",
-    price: 79.90,
+    price: "A partir de 50uni R$5.9",
     quant: 1,
     size: ["Único"],
     categories: ["lembrancinhas"],
