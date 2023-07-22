@@ -62,28 +62,28 @@ const products = [
     image: ["media/produtos/cacto.jpg"],
     description: "🌵  Mini cactos naturais para cultivar amor, paz e harmonia na sua casa.",
   },
-  {
-    id: 13,
-    name: "Bolsa Isabel",
-    price: 79.90,
-    quant: 1,
-    size: ["Único"],
-    categories: ["calcaSaia", "queridinhos"],
-    image: ["media/produtos/bolsaverde.jpeg"],
-    description:
-      "👜 Bolsa de Crochê em Fio de malha de alto requinte disponível na cor verde.",
-  },
-  {
-    id: 1,
-    name: "Bolsa infantil redonda",
-    price: 120.00,
-    quant: 1,
-    size: ["Único"],
-    categories: ["infantil"],
-    image: ["media/produtos/crianca4.jpg"],
-    description:
-      "👜 Bolsa de Crochê em Fio de malha redonda verde.",
-  },
+  // {
+  //   id: 13,
+  //   name: "Bolsa Isabel",
+  //   price: 79.90,
+  //   quant: 1,
+  //   size: ["Único"],
+  //   categories: ["calcaSaia", "queridinhos"],
+  //   image: ["media/produtos/bolsaverde.jpeg"],
+  //   description:
+  //     "👜 Bolsa de Crochê em Fio de malha de alto requinte disponível na cor verde.",
+  // },
+  // {
+  //   id: 1,
+  //   name: "Bolsa infantil redonda",
+  //   price: 120.00,
+  //   quant: 1,
+  //   size: ["Único"],
+  //   categories: ["infantil"],
+  //   image: ["media/produtos/crianca4.jpg"],
+  //   description:
+  //     "👜 Bolsa de Crochê em Fio de malha redonda verde.",
+  // },
   {
     id: 5,
     name: "Bolsa Vitória",
@@ -203,17 +203,17 @@ const products = [
     description:
       "❤️ Chaveirinhos coração personalizados ❣️",
   },
-  {
-    id: 2,
-    name: "Bolsa Cecília",
-    price: 130.00,
-    quant: 1,
-    size: ["Único"],
-    categories: ["bodyCropped", "queridinhos"],
-    image: ["media/produtos/cecilia.jpg"],
-    description:
-      "👜 Bolsa Cecíla, super charmosa, feita com fio de malha Premium na cor azul.",
-  },
+  // {
+  //   id: 2,
+  //   name: "Bolsa Cecília",
+  //   price: 130.00,
+  //   quant: 1,
+  //   size: ["Único"],
+  //   categories: ["bodyCropped", "queridinhos"],
+  //   image: ["media/produtos/cecilia.jpg"],
+  //   description:
+  //     "👜 Bolsa Cecíla, super charmosa, feita com fio de malha Premium na cor azul.",
+  // },
   {
     id: 3,
     name: "Bolsa de mão",
@@ -267,17 +267,17 @@ const products = [
     image: ["media/produtos/bag.jpg"],
     description: "👜 Bolsa Isadora com necessaire, toda cheia de charme, feita com fio de malha premium 100% artesanal, nas cores azul e rosa, fechamento em zíper.",
   },
-  {
-    id: 12,
-    name: "Bolsa Anitta",
-    price: 120.00,
-    quant: 1,
-    size: ["Único"],
-    categories: ["vestido"],
-    image: ["media/produtos/bolsapreta.webp"],
-    description:
-      "👜 Bolsa Anitta, toda cheia de charme, feita com fio de malha premium 100% artesanal",
-  },
+  // {
+  //   id: 12,
+  //   name: "Bolsa Anitta",
+  //   price: 120.00,
+  //   quant: 1,
+  //   size: ["Único"],
+  //   categories: ["vestido"],
+  //   image: ["media/produtos/bolsapreta.webp"],
+  //   description:
+  //     "👜 Bolsa Anitta, toda cheia de charme, feita com fio de malha premium 100% artesanal",
+  // },
   {
     id: 13,
     name: " Bag Aurora",
