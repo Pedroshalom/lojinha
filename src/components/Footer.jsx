@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-import { BsInstagram, BsWhatsapp } from "react-icons/bs";
+import { BsInstagram, BsWhatsapp, BsFacebook } from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
 
 // import logo from "/media/logo.png";
@@ -31,8 +31,8 @@ const Footer = () => {
             <a href="https://wa.me/5584999096035" target={"_blank"}>
               <BsWhatsapp size={30} />
             </a>
-            <a href="mailto:contatoartecrochenatal@gmail.com" target={"_blank"}>
-              <MdOutlineMailOutline size={30} />
+            <a href="https://www.facebook.com/profile.php?id=100057258977676" target={"_blank"}>
+              <BsFacebook size={30} />
             </a>
           </div>
         </div>
