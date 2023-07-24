@@ -68,7 +68,7 @@ const products = [
   //   price: 79.90,
   //   quant: 1,
   //   size: ["Único"],
-  //   categories: ["calcaSaia", "queridinhos"],
+  //   categories: ["lembrancinhas", "queridinhos"],
   //   image: ["media/produtos/bolsaverde.jpeg"],
   //   description:
   //     "👜 Bolsa de Crochê em Fio de malha de alto requinte disponível na cor verde.",
@@ -284,7 +284,7 @@ const products = [
     price: 160.00,
     quant: 1,
     size: ["Único"],
-    categories: ["calcaSaia", "queridinhos"],
+    categories: ["lembrancinhas", "queridinhos"],
     image: ["media/produtos/bo8.jpg"],
     description:
       "👜 Essa é a maravilhosa Bag Aurora,Na cor vibrante do Rosa shok, para aquelas que querem chegar chegando no rolê",
@@ -295,7 +295,7 @@ const products = [
     price: 160.00,
     quant: 1,
     size: ["Único"],
-    categories: ["calcaSaia"],
+    categories: ["lembrancinhas"],
     image: ["media/produtos/livia.jpg"],
     description:
       "👜 A Bag Lívia chegou, cheia de charme e requinte. Aquele glamour que faltava no seu look!",
@@ -313,30 +313,17 @@ const products = [
   },
 ];
 
-/* Novidades */
-const novidades = products.filter((product) =>
-  product.categories.includes("novidades")
-);
-
-/* Queridinhos */
-const queridinhos = products.filter((product) =>
-  product.categories.includes("queridinhos")
-);
-
 /* Body / Cropped */
 const bodyCropped = products.filter((product) =>
   product.categories.includes("infantil")
 );
 
 /* Calça / Saia */
-const calcaSaia = products.filter((product) =>
+const lembrancinhas = products.filter((product) =>
   product.categories.includes("lembrancinhas")
 );
 
-/* Vestidos */
-const vestido = products.filter((product) =>
-  product.categories.includes("vestido")
-);
+
 
 function App() {
   const [cartShop, setCartShop] = useState([]);
@@ -420,12 +407,12 @@ function App() {
 
   /* SEARCH */
 
-  function searchFilter(valueSearch) {
-    setProds(
-      products.filter((prod) => prod.name.toLowerCase().includes(valueSearch))
-    );
-    setName(valueSearch);
-  }
+  // function searchFilter(valueSearch) {
+  //   setProds(
+  //     products.filter((prod) => prod.name.toLowerCase().includes(valueSearch))
+  //   );
+  //   setName(valueSearch);
+  // }
 
   return (
     <div className="App">
@@ -434,7 +421,6 @@ function App() {
         quantidade={countCart}
         removeItem={removeItem}
         addItem={addItem}
-        searchFilter={searchFilter}
       />
       <BrowserRouter>
         <div className="filter">
@@ -517,7 +503,7 @@ function App() {
             path="/lembrancinhas"
             element={
               <Product
-                products={calcaSaia}
+                products={lembrancinhas}
                 addItem={addItem}
                 showAlert={showAlert}
                 handleClickOpen={handleClickOpen}
