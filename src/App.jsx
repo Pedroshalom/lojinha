@@ -97,7 +97,7 @@ const products = [
   },
   {
     id: 8,
-    name: "Bolsa Vitória",
+    name: "Bolsa Vitória Lílas",
     price: 149.90,
     quant: 2,
     size: ["Único"],
@@ -340,6 +340,14 @@ function App() {
 
   /* Adiciona item no carrinho de compras */
   function addItem(item, numSize) {
+    let carrinhoLocalStorage = [];
+    if(localStorage.getItem('carrinho')) { 
+      carrinhoLocalStorage = JSON.parse(localStorage.getItem('carrinho'));
+    };
+    carrinhoLocalStorage.push(item);
+    console.log(carrinhoLocalStorage);
+    localStorage.setItem('carrinho', JSON.stringify(carrinhoLocalStorage));
+    
     if (numSize == "") {
       const nArray = [...cartShop];
       const nIndex = nArray.findIndex(
@@ -413,6 +421,7 @@ function App() {
   //   );
   //   setName(valueSearch);
   // }
+  
 
   return (
     <div className="App">
