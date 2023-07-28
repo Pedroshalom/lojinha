@@ -545,3 +545,25 @@ function App() {
 }
 
 export default App;
+
+
+
+// Função para adicionar um item ao carrinho 
+// function adicionarItemAoCarrinho(item)
+//  { let cartItems = JSON.parse(localStorage .getItem('cartItems')) || [];
+//   cartItems.push(item); localStorage.setItem('cartItems', JSON.stringify(cartItems));
+//    exibirItensNoCarrinho(); }
+
+   // Função para limpar o carrinho 
+  //  function limparCarrinho() { localStorage. removeItem('cartItems');
+  //   exibirItensNoCarrinho(); }
+
+    // Função para exibir os itens do carrinho na página
+    //  function displayItensNoCarrinho() { let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+    //   let cartList = document.getElementById('cart-list'); cartList.innerHTML = '';
+    //    cartItems.forEach(item => { let listItem = document.createElement('li');
+    //     listItem.textContent = item; cartList.appendChild(listItem); });
+    //    }
+
+       // Ao carregar a página, exibe os itens do carrinho salvos no localStorage
+        // displayItensNoCarrinho();
